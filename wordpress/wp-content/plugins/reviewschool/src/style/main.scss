@@ -1,0 +1,15 @@
+#rankmathtest {
+  height: 400px;
+  .app-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  .container-widget {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

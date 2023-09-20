@@ -1,0 +1,61 @@
+ /* 
+ Theme name: Zeus theme
+ Author: Ivan Zeus
+ Description: the best template in the world.
+ version:1.0
+ */
+ body{
+   font-family: 'Arial', sans-serif ;
+   color: #333;
+   margin: 0;
+
+  }
+  main{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer p{
+    background-color:#DAD4B5;
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  div[class^="menu-"]{
+    background-color:#273044;
+    padding-top: 20px; 
+  }
+  .menu{ 
+    padding: 0;
+    height: 50px;
+  }
+  .menu .menu-item{
+    list-style-type: none;
+    display: inline-block;
+    top:0;
+    margin-right: 20px;
+    line-height: 5px;
+    margin-left: 145px;
+    }
+    .menu .menu-item a, main article a{
+        text-decoration: none;
+        color: gray;
+    }
+    .menu .menu-item a:hover{
+       background-color: #273044;
+       color:white;
+       text-decoration: underline;
+    }
+    main article a:hover{
+        text-decoration: underline;
+        color:white;
+    }
+    article{
+        width: 300px;
+        margin-bottom: 20px;
+    }

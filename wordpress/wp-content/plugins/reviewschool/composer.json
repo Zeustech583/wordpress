@@ -1,0 +1,18 @@
+{
+    "name": "lewatt23/rank-math-test",
+    "description": "Dashboard widget to display chart datat using reactjs and wp-p rest api",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lewatt23\\RankMathTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lewatt23",
+            "email": "lewatt23@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
